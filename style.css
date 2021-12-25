@@ -1,0 +1,561 @@
+html,
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.container {
+  width: 1143px;
+  margin: 0 auto;
+}
+
+#header {
+  position: absolute;
+  width: 100%;
+  padding: 56px 0;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-list__item {
+  margin: 0 4px;
+}
+.header-list__item_link {
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 11px 16px;
+  display: block;
+}
+.header-list__item_link:hover {
+  background-color: #643a79;
+  border-radius: 4px;
+}
+
+#intro {
+  height: 100vh;
+  background-color: #87509c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro-title {
+  font-weight: bold;
+  color: #f7f3ea;
+  font-size: 42px;
+  text-align: center;
+}
+.intro-button {
+  text-transform: uppercase;
+  width: 293px;
+  height: 70px;
+  margin-top: 53px;
+  padding: 28px 80px;
+  background-color: #eb7d4b;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 0px 0px #c86a40;
+  font-size: 18px;
+}
+
+#services {
+  background-color: #17c2a4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0 128px 0;
+}
+.services-intro,
+.team-intro,
+.skills-intro,
+.portfolio-intro,
+.feedback-intro,
+.message-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-intro-header,
+.team-intro-header,
+.skills-intro-header,
+.portfolio-intro-header,
+.feedback-intro-header,
+.message-intro-header {
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.services-intro-line,
+.team-intro-line,
+.skills-intro-line,
+.portfolio-intro-line,
+.feedback-intro-line,
+.message-intro-line {
+  display: block;
+  margin: 20px 0px 28px 0px;
+}
+.services-intro-motto,
+.team-intro-motto,
+.skills-intro-motto,
+.portfolio-intro-motto,
+.feedback-intro-motto,
+.message-intro-motto {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+}
+.services-options,
+.team-section,
+.skills-section {
+  margin-top: 87px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.options-sections,
+.team-member-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-options-img {
+  height: 147px;
+}
+.s-icon_1 {
+  height: 124px;
+  width: 120px;
+}
+.s-icon_2 {
+  height: 135px;
+  width: 103px;
+}
+.s-icon_3 {
+  height: 130px;
+  width: 161px;
+}
+.s-icon_4 {
+  height: 147px;
+  width: 117px;
+}
+.options-motto,
+.team-member-name,
+.skills-type-name {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 62px;
+}
+.options-content,
+.team-member-bio {
+  width: 204px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 27px;
+}
+
+#team {
+  background-color: #e7f1f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0 135px 0;
+}
+.team-intro-header {
+  color: #3c4761;
+}
+.team-intro-motto,
+.skills-intro-motto {
+  color: #3c4761;
+}
+.team-section {
+  margin-top: 77px;
+}
+.team-member-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: #878787;
+}
+.team-member-name,
+.skills-type-name {
+  color: #3c4761;
+  margin-top: 41px;
+}
+.team-member-position,
+.feedback-author-position {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #30bae7;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.team-member-bio {
+  color: #3c4761;
+  margin-top: 26px;
+}
+.team-member-network {
+  display: flex;
+  margin-top: 30px;
+}
+.network-base {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin: 0px 7px;
+  border-radius: 16px;
+  background-color: #bdd1df;
+}
+.network-fb-icon {
+  width: 7px;
+  height: 15px;
+}
+
+#skills {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 118px 0 112px 0;
+}
+.skills-intro-header {
+  color: #3c4761;
+}
+.skills-type-name {
+  margin-top: 25px;
+}
+.skills-type-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skills-type-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+  width: 160px;
+  background-color: #30bae7;
+  position: relative;
+  border-radius: 100%;
+}
+.inner-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 135px;
+  width: 135px;
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 100%;
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 21px;
+  color: #3c4761;
+  font-weight: 300;
+}
+
+#portfolio {
+  background-color: #ffdd99;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0 110px 0;
+}
+.portfolio-intro-header {
+  color: #393939;
+}
+.portfolio-intro-motto {
+  color: #393939;
+}
+.portfolio-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 42px;
+}
+.portfolio-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.portfolio-list__item {
+  width: 7%;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.0784313725490196);
+  margin: 0 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-list__item_link,
+.portfolio-descr {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #393939;
+  font-weight: 400;
+  display: block;
+}
+.portfolio-list__item:hover {
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 62px;
+}
+.portfolio-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 110px;
+}
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.portfolio-descr {
+  margin-top: 32px;
+}
+.portfolio-img {
+  height: 311px;
+  width: 541px;
+}
+.portfolio-button,
+#message-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  width: 293px;
+  height: 66px;
+  border-radius: 4px;
+  background-color: #17c2a4;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 4px 0 0 #14a48b;
+}
+
+#feedback {
+  background-color: #d74680;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0 133px 0;
+}
+.feedback-intro-header {
+  color: #ffffff;
+}
+.feedback-intro-motto {
+  color: #ffffff;
+}
+.feedback-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 82px;
+}
+.feedback-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.feedback-row-for-bottom-margin {
+  margin-bottom: 158px;
+}
+.feedback-wrapper {
+  display: flex;
+  width: 50%;
+}
+.feedback-circle-wrapper {
+  display: flex;
+  margin-right: 48px;
+}
+.feedback-circle {
+  width: 96px;
+  height: 96px;
+  border-radius: 48px;
+  background-color: #787878;
+}
+.feedback-descr-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.feedback-text {
+  width: 297px;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 31px;
+  color: #ffffff;
+  font-weight: 400;
+  font-style: italic;
+}
+.feedback-author {
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 27px;
+}
+.feedback-author-position {
+  color: #ffdd99;
+  margin-top: 9px;
+}
+
+#message {
+  background-color: #3c5499;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0 115px 0;
+}
+.message-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
+.message-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.personal-data {
+  display: flex;
+  width: 100%;
+}
+#name,
+#email {
+  width: 50%;
+  height: 56px;
+  padding: 23px 0 20px 26px;
+  border-radius: 4px;
+  background-color: #273a71;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+#email {
+  margin-left: 31px;
+}
+#message-text {
+  width: 860px;
+  max-width: 860px;
+  min-width: 860px;
+  height: 200px;
+  max-height: 300px;
+  min-height: 200px;
+  padding: 25px 0 0 26px;
+  border-radius: 4px;
+  background-color: #273a71;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  margin-top: 26px;
+}
+.red-astr {
+  color: #ff0000;
+}
+.name-astr,
+.email-astr {
+  padding-top: 10px;
+}
+.name-astr {
+  position: absolute;
+  padding-left: 115px;
+}
+.email-astr {
+  position: absolute;
+  padding-left: 560px;
+}
+.message-astr {
+  position: absolute;
+  align-self: flex-start;
+  margin: 100px 0 0 137px;
+}
+#message-button {
+  background-color: #30bae7;
+  box-shadow: 0 4px 0 0 #299ec5;
+  border: none;
+  margin-top: 58px;
+}
+#message-button {
+  cursor: pointer;
+}
+
+::placeholder {
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Titillium Web";
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  padding: 41px 0 49px 0;
+  background-color: #344b8e;
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 981px;
+}
+.footer-list__item_link {
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* .class :focus +(next child) {
+  //do smth with the child while hovering or focusing something
+} */
